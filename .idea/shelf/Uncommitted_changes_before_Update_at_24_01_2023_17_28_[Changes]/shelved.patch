@@ -1,0 +1,159 @@
+Index: Task1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task1.py b/Task1.py
+new file mode 100644
+--- /dev/null	(date 1674570348862)
++++ b/Task1.py	(date 1674570348862)
+@@ -0,0 +1,13 @@
++"""Поработайте с переменными, создайте несколько, выведите на экран.
++Запросите у пользователя некоторые числа и строки и сохраните в переменные, затем выведите на экран."""
++helper = str("Алиса")
++print("Я – Ваш помощник", helper)
++user_name = input("Введите Ваше имя:  ")
++user_age = int(input("Введите Ваш возраст:  "))
++user_job = int(input("С какого возраста Вы в IT?  "))
++job_start = (user_age - user_job)
++rest = input(f"{user_name}, Вы пишете на Python {job_start} лет? ")
++if rest == "да":
++    print("Ok, Вы с нами!")
++if rest != "да":
++    print("Извините")
+\ No newline at end of file
+Index: Task7.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task7.py b/Task7.py
+new file mode 100644
+--- /dev/null	(date 1674570465590)
++++ b/Task7.py	(date 1674570465590)
+@@ -0,0 +1,22 @@
++"""Спортсмен занимается ежедневными пробежками. В первый день его результат составил a километров.
++Каждый день спортсмен увеличивал результат на 10% относительно предыдущего.
++Требуется определить номер дня, на который результат спортсмена составит не менее b километров.
++Программа должна принимать значения параметров a и b и выводить одно натуральное число — номер дня"""
++
++"""Например: a = 2, b = 3.
++Результат:
++1-й день: 2
++2-й день: 2,2
++3-й день: 2,42
++4-й день: 2,66
++5-й день: 2,93
++6-й день: 3,22
++Ответ: на шестой день спортсмен достиг результата — не менее 3 км"""
++
++a = int(input("Пробег в первый день, км: "))
++b = int(input("Целевое расстояние пробега, км: "))
++day = 1
++while a < b:
++    a = a * 1.1
++    day = day + 1
++print(f"Более {b} км бегун стал пробегать на {day} день")
+\ No newline at end of file
+Index: Task6.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task6.py b/Task6.py
+new file mode 100644
+--- /dev/null	(date 1674570439556)
++++ b/Task6.py	(date 1674570439556)
+@@ -0,0 +1,11 @@
++"""Если фирма отработала с прибылью, вычислите рентабельность выручки.
++Это отношение прибыли к выручке. Далее запросите численность сотрудников фирмы
++и определите прибыль фирмы в расчёте на одного сотрудника"""
++receipt = int(input("Какова выручка Вашей фирмы?  "))
++costs = int(input("Каковы расходы Вашей фирмы?  "))
++profit = (receipt - costs)
++profitabil = "{:.2f}".format(profit / receipt * 100)
++print(f"{profitabil} %")
++pers = int(input("Сколько у Вас сотрудников?  "))
++perpers = "{:.2f}".format(profit / pers)
++print(f"${perpers} на человека. Вы неплохой менеджер")
+\ No newline at end of file
+Index: Task5.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task5.py b/Task5.py
+new file mode 100644
+--- /dev/null	(date 1674570423652)
++++ b/Task5.py	(date 1674570423652)
+@@ -0,0 +1,11 @@
++"""Запросите у пользователя значения выручки и издержек фирмы.
++Определите, с каким финансовым результатом работает фирма.
++Например, прибыль — выручка больше издержек, или убыток — издержки больше выручки.
++Выведите соответствующее сообщение."""
++receipt = int(input("Какова выручка Вашей фирмы:  "))
++costs = int(input("Каковы расходы Вашей фирмы:  "))
++rest = (receipt - costs)
++if rest > 0:
++    print("Ваша фирма прибыльна")
++if rest < 0:
++    print("Ваша фирма генерирует отрицательную прибыль")
+\ No newline at end of file
+Index: Task4.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task4.py b/Task4.py
+new file mode 100644
+--- /dev/null	(date 1674570411231)
++++ b/Task4.py	(date 1674570411231)
+@@ -0,0 +1,11 @@
++"""Пользователь вводит целое положительное число. Найдите самую большую цифру в числе.
++Для решения используйте цикл while и арифметические операции."""
++numb = int(input("запишите произвольное число:  "))
++max_num = 0
++while numb != 0:
++    var_n = numb % 10
++    if max_num < var_n:
++        max_num = var_n
++    numb = numb // 10
++
++print(f"Наибольшая цифра в числе: {max_num}")
+\ No newline at end of file
+Index: Task3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task3.py b/Task3.py
+new file mode 100644
+--- /dev/null	(date 1674570396898)
++++ b/Task3.py	(date 1674570396898)
+@@ -0,0 +1,7 @@
++"""Узнайте у пользователя число n. Найдите сумму чисел n + nn + nnn.
++Например, пользователь ввёл число 3. Считаем 3 + 33 + 333 = 369."""
++n = int(input("запишите произвольное число:  "))
++n_d = int(f"{n}{n}")
++n_h = int(f"{n}{n}{n}")
++rest = (n + n_d + n_h)
++print(f"{n} + {n_d} + {n_h} = {rest}")
+\ No newline at end of file
+Index: Task2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task2.py b/Task2.py
+new file mode 100644
+--- /dev/null	(date 1674570379093)
++++ b/Task2.py	(date 1674570379093)
+@@ -0,0 +1,7 @@
++"""Пользователь вводит время в секундах. Переведите время в часы, минуты, секунды и выведите в формате чч:мм:сс. Используйте форматирование строк."""
++time_co = int(input("Сколько секунд до следующего занятия? "))
++time_hour = (time_co // 3600)
++time_h_rem = (time_co % 3600)
++time_min = (time_h_rem // 60)
++time_sec = (time_h_rem % 60)
++print(f"{time_hour}:{time_min}:{time_sec}")
+\ No newline at end of file

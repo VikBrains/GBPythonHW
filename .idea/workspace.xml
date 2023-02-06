@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed20ce65-e2f7-4f12-b463-143b0ae3d5d6" name="Changes" comment="Second try">
-      <change afterPath="$PROJECT_DIR$/fTask.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fTask.py" beforeDir="false" afterPath="$PROJECT_DIR$/fTask.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Task1" type="PythonConfigurationType" factoryName="Python">
       <module name="GBPythonHW" />
       <option name="INTERPRETER_OPTIONS" value="" />

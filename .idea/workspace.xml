@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed20ce65-e2f7-4f12-b463-143b0ae3d5d6" name="Changes" comment="Second try" />
+    <list default="true" id="ed20ce65-e2f7-4f12-b463-143b0ae3d5d6" name="Changes" comment="Second try">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTask.py" beforeDir="false" afterPath="$PROJECT_DIR$/eTask.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,15 +62,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Puser/Desktop/PycharmProjects/pythonProject&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Puser/Desktop/PycharmProjects/pythonProject",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.Task7">
+}]]></component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="Task3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GBPythonHW" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,16 +302,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second try" />
     <option name="LAST_COMMIT_MESSAGE" value="Second try" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
